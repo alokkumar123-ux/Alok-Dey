@@ -6,39 +6,39 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 import { Button } from "@/components/ui/button";
 
-import corpseArenaAppOne from "@/assets/corpse-arena-app-1.webp.asset.json";
-import corpseArenaAppTwo from "@/assets/corpse-arena-app-2.webp.asset.json";
-import corpseArenaAppThree from "@/assets/corpse-arena-app-3.webp.asset.json";
-import corpseArenaAppFour from "@/assets/corpse-arena-app-4.webp.asset.json";
-import corpseArenaIcon from "@/assets/corpse-arena-icon.webp.asset.json";
-import corpseArenaPreview from "@/assets/corpse-arena.webp.asset.json";
-import corpseClubPreview from "@/assets/corpse-club.webp.asset.json";
-import cosmopolitanPreview from "@/assets/cosmopolitan.webp.asset.json";
-import ellePreview from "@/assets/elle.webp.asset.json";
-import encodersProPreview from "@/assets/encoders-pro.webp.asset.json";
-import graziaPreview from "@/assets/grazia-jp.webp.asset.json";
-import hiveIcon from "@/assets/hive-icon.webp.asset.json";
-import hiveScreenOne from "@/assets/nearhive-1.webp.asset.json";
-import hiveScreenTwo from "@/assets/nearhive-2.webp.asset.json";
-import hiveScreenThree from "@/assets/nearhive-3.webp.asset.json";
-import modelsRealmPreview from "@/assets/models-realm.webp.asset.json";
-import poolmateIcon from "@/assets/poolmate-icon.webp.asset.json";
-import poolmateScreenOne from "@/assets/bola-1.webp.asset.json";
-import poolmateScreenTwo from "@/assets/bola-2.webp.asset.json";
-import poolmateScreenThree from "@/assets/bola-3.webp.asset.json";
-import uaeCeoPreview from "@/assets/uae-ceo.webp.asset.json";
+import corpseArenaAppOne from "@/assets/corpse-arena-app-1.webp";
+import corpseArenaAppTwo from "@/assets/corpse-arena-app-2.webp";
+import corpseArenaAppThree from "@/assets/corpse-arena-app-3.webp";
+import corpseArenaAppFour from "@/assets/corpse-arena-app-4.webp";
+import corpseArenaIcon from "@/assets/corpse-arena-icon.webp";
+import corpseArenaPreview from "@/assets/corpse-arena.webp";
+import corpseClubPreview from "@/assets/corpse-club.webp";
+import cosmopolitanPreview from "@/assets/cosmopolitan.webp";
+import ellePreview from "@/assets/elle.webp";
+import encodersProPreview from "@/assets/encoders-pro.webp";
+import graziaPreview from "@/assets/grazia-jp.webp";
+import hiveIcon from "@/assets/hive-icon.webp";
+import hiveScreenOne from "@/assets/nearhive-1.webp";
+import hiveScreenTwo from "@/assets/nearhive-2.webp";
+import hiveScreenThree from "@/assets/nearhive-3.webp";
+import modelsRealmPreview from "@/assets/models-realm.webp";
+import poolmateIcon from "@/assets/poolmate-icon.webp";
+import poolmateScreenOne from "@/assets/bola-1.webp";
+import poolmateScreenTwo from "@/assets/bola-2.webp";
+import poolmateScreenThree from "@/assets/bola-3.webp";
+import uaeCeoPreview from "@/assets/uae-ceo.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const websites = [
-  { name: "COSMOPOLITAN", region: "SWEDEN", category: "Digital editorial", url: "https://cosmopolitansweden.com/", image: cosmopolitanPreview.url, tone: "project-paper" },
-  { name: "ELLE", region: "COLOMBIA", category: "Fashion & culture", url: "https://elle.com.co/", image: ellePreview.url, tone: "project-ink" },
-  { name: "CORPSE ARENA", region: "GLOBAL", category: "Gaming & esports", url: "https://corpsearena.com/", image: corpseArenaPreview.url, tone: "project-red" },
-  { name: "GRAZIA", region: "JAPAN", category: "Fashion editorial", url: "https://graziajp.com/", image: graziaPreview.url, tone: "project-paper" },
-  { name: "MODELS REALM", region: "GLOBAL", category: "Talent & fashion", url: "https://modelsrealm.com/", image: modelsRealmPreview.url, tone: "project-rose" },
-  { name: "UAE CEO", region: "UNITED ARAB EMIRATES", category: "Business & leadership", url: "https://uaeceo.com/", image: uaeCeoPreview.url, tone: "project-cyan" },
-  { name: "ENCODERSPRO", region: "GLOBAL", category: "Cybersecurity & AI", url: "https://encoderspro.com/", image: encodersProPreview.url, tone: "project-violet" },
-  { name: "CORPSE CLUB", region: "GLOBAL", category: "Gaming community", url: "https://corpse-club.vercel.app/", image: corpseClubPreview.url, tone: "project-green" },
+  { name: "COSMOPOLITAN", region: "SWEDEN", category: "Digital editorial", url: "https://cosmopolitansweden.com/", image: cosmopolitanPreview, tone: "project-paper" },
+  { name: "ELLE", region: "COLOMBIA", category: "Fashion & culture", url: "https://elle.com.co/", image: ellePreview, tone: "project-ink" },
+  { name: "CORPSE ARENA", region: "GLOBAL", category: "Gaming & esports", url: "https://corpsearena.com/", image: corpseArenaPreview, tone: "project-red" },
+  { name: "GRAZIA", region: "JAPAN", category: "Fashion editorial", url: "https://graziajp.com/", image: graziaPreview, tone: "project-paper" },
+  { name: "MODELS REALM", region: "GLOBAL", category: "Talent & fashion", url: "https://modelsrealm.com/", image: modelsRealmPreview, tone: "project-rose" },
+  { name: "UAE CEO", region: "UNITED ARAB EMIRATES", category: "Business & leadership", url: "https://uaeceo.com/", image: uaeCeoPreview, tone: "project-cyan" },
+  { name: "ENCODERSPRO", region: "GLOBAL", category: "Cybersecurity & AI", url: "https://encoderspro.com/", image: encodersProPreview, tone: "project-violet" },
+  { name: "CORPSE CLUB", region: "GLOBAL", category: "Gaming community", url: "https://corpse-club.vercel.app/", image: corpseClubPreview, tone: "project-green" },
 ];
 
 const apps = [
@@ -46,28 +46,28 @@ const apps = [
     name: "Corpse Arena",
     category: "ESPORTS · COMPANION APP",
     summary: "Player stats, competitive arenas, and a closer connection to the game.",
-    icon: corpseArenaIcon.url,
+    icon: corpseArenaIcon,
     storeLinks: [
       { name: "App Store", url: "https://apps.apple.com/sg/app/corpse-arena/id6762157008" },
       { name: "Google Play", url: "https://play.google.com/store/apps/details?id=com.corpsearena.app&pcampaignid=web_share" },
     ],
-    screens: [corpseArenaAppOne.url, corpseArenaAppTwo.url, corpseArenaAppThree.url, corpseArenaAppFour.url],
+    screens: [corpseArenaAppOne, corpseArenaAppTwo, corpseArenaAppThree, corpseArenaAppFour],
   },
   {
     name: "Nearhive",
     category: "FOOD & DRINK · DELIVERY",
     summary: "A lively way to discover local favourites and enjoy the food-ordering experience.",
-    icon: hiveIcon.url,
+    icon: hiveIcon,
     storeLinks: [{ name: "Google Play", url: "https://play.google.com/store/apps/details?id=com.deliverybuzz.hive&pcampaignid=web_share" }],
-    screens: [hiveScreenOne.url, hiveScreenTwo.url, hiveScreenThree.url],
+    screens: [hiveScreenOne, hiveScreenTwo, hiveScreenThree],
   },
   {
     name: "Bola",
     category: "TRAVEL · COMMUNITY",
     summary: "Connect drivers and riders heading in the same direction to share a journey.",
-    icon: poolmateIcon.url,
+    icon: poolmateIcon,
     storeLinks: [{ name: "Google Play", url: "https://play.google.com/store/apps/details?id=com.alok.poolmate&pcampaignid=web_share" }],
-    screens: [poolmateScreenOne.url, poolmateScreenTwo.url, poolmateScreenThree.url],
+    screens: [poolmateScreenOne, poolmateScreenTwo, poolmateScreenThree],
   },
 ];
 
